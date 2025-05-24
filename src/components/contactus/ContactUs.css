@@ -1,0 +1,45 @@
+.contactNumberInput{
+    background-color: #32323c;
+    color: #fffbfb;
+    border-radius: 4px !important;
+    border: none;
+}
+
+.contactNumberInput::placeholder{
+    color: #a0a0a0;
+    font-size: 18px;
+}
+
+.nav-menu{
+    background-color: #a0a0a0;
+}
+.contactdataInfo{
+    font-size: 13px;
+}
+
+
+.contact-left-container h2{
+    background: linear-gradient(267deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.msgBtn{
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.36%);
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+    color: white; 
+}
+
+.contact-left-container p{
+    line-height: 40px;
+}
+
+@media (min-width: 768px){
+    .nav-menu{
+    background-color: transparent;
+    }
+}

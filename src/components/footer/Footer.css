@@ -1,0 +1,26 @@
+.footerinfoContainer p{
+    font-family: "Nunito", sans-serif;
+    font-size: 32px;
+}
+.footerinfoContainer span{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+}
+.footericon{
+   font-size: 50px;
+   color: #c242e5;
+   transition: 0.3s;
+   cursor: pointer;
+}
+
+.footericon:hover{
+    font-size: 60px;
+    transition: 0.3s;
+}
+
+.footerLine{
+    background-color: white;
+    opacity: 1.6;
+}

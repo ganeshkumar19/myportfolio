@@ -1,0 +1,19 @@
+.work-image-container{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.work-image{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.work-image-container:hover{
+    border: 2px solid #ff00ff;
+    transform: scale(1.05);
+    transition: 0.4s;
+}

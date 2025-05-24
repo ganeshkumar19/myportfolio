@@ -1,0 +1,50 @@
+.navbarcomp {
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; 
+    background-color: #161513;/* Ensures it's above all other content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better visibility */
+  }
+
+.logo{
+    color: white !important;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.logo:hover, .logo:focus{
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navlink{
+    color: white !important;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
+.navlink:hover{
+    color: #DA7C25 !important;
+}
+
+.cwmButton{
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.36%);
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+    color: white;
+}
+
+.cwmButton:hover{
+    transform: scale(1.2);
+}

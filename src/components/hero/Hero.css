@@ -1,0 +1,89 @@
+.heroContainer{
+    padding-top: 90px;
+}
+
+.profileImageContainer{
+    width: 180px;
+    height: 180px;
+}
+
+.profileImageContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+}
+
+.profileInfoCol{
+    width: 100%;
+}
+
+.profileInfoContainer h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.profileInfoContainer p{
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.profileInfoContainer h1 span{
+    background: linear-gradient(267deg, #DF8908 10%, #B415FF 102.36%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.connectme{
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.36%);
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+}
+
+.myresume{
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.connectme:hover{
+    border: 1px solid white;
+}
+
+.myresume:hover{
+    border-color: #B415FF;
+}
+
+@media (min-width: 768px) {
+    .profileInfoCol{
+        width: 70%;
+    }
+}
+
+@media (min-width: 372px) {
+    .profileInfoContainer h1{
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .profileInfoContainer p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 576px) {
+    .profileInfoContainer h1{
+        font-size: 60px;
+    }
+    .profileInfoContainer p{
+        font-size: 18px;
+    }
+}

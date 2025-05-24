@@ -1,0 +1,44 @@
+.about-image-container{
+    width: 80%;
+    height: auto;
+}
+
+.about-image-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-skill{
+    width: 100%;
+    transition: 0.3s;
+}
+.about-skill p{
+    min-width: 150px;
+}
+
+.about-skill hr {
+    outline: none;
+    border: none;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DF8908 -5.09%, #B415FF 106.28%);
+    width: 50%; /* Ensure hr takes the full width of the parent container */
+    opacity: 1;
+}
+
+.acheivements-info h1{
+    background: linear-gradient(267deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-skill:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.acheivements-info:hover{
+    transform: scale(1.12);
+    transition: 0.8s;
+}
