@@ -33,6 +33,10 @@
     -webkit-text-fill-color: transparent;
 }
 
+.about-info-container p{
+    font-size: 14px;
+}
+
 .about-skill:hover{
     transform: scale(1.1);
     transition: 0.8s;
@@ -41,4 +45,22 @@
 .acheivements-info:hover{
     transform: scale(1.12);
     transition: 0.8s;
+}
+
+@media (min-width: 372px) {
+    .about-info-container p{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 576px) {
+    .about-info-container p{
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-info-container p{
+        font-size: 22px;
+    }
 }

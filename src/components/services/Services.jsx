@@ -24,23 +24,33 @@ const Services = () => {
     const services = [
         {
           id: 1,
-          title: 'Web Development',
-          description: 'Building modern and responsive websites using the latest web technologies like React and Bootstrap.',
+          title: 'React.js Development',
+          description: 'Building responsive web applications with React.js, implementing component-based architecture and global state management.',
         },
         {
           id: 2,
-          title: 'Mobile App Development',
-          description: 'Creating mobile applications for both iOS and Android using React Native, ensuring a smooth and native experience.',
+          title: 'React Native Development',
+          description: 'Creating cross-platform mobile applications for iOS and Android using React Native with role-based navigation.',
         },
         {
           id: 3,
-          title: 'API Integration',
-          description: 'Integrating third-party APIs such as Firebase, REST APIs, or GraphQL to provide dynamic content and authentication.',
+          title: 'API Integration & Firebase',
+          description: 'Integrating REST APIs, Firebase authentication, and implementing real-time data fetching with TanStack React Query.',
         },
         {
           id: 4,
-          title: 'UI/UX Design',
-          description: 'Designing intuitive and aesthetically pleasing user interfaces with a focus on great user experience and usability.',
+          title: 'State Management',
+          description: 'Implementing global state management using Context API, Zustand, and efficient data synchronization across components.',
+        },
+        {
+          id: 5,
+          title: 'UI/UX Development',
+          description: 'Creating modern, responsive interfaces using HTML5, CSS3, Bootstrap 5, and Chakra UI with multilingual support.',
+        },
+        {
+          id: 6,
+          title: 'Full-Stack Projects',
+          description: 'Developing complete applications with frontend and backend integration, database management, and deployment.',
         }
       ];
       

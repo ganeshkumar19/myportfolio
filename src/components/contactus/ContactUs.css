@@ -14,7 +14,7 @@
     background-color: #a0a0a0;
 }
 .contactdataInfo{
-    font-size: 13px;
+    font-size: 14px;
 }
 
 
@@ -34,12 +34,44 @@
     color: white; 
 }
 
+.connectmebutton{
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.36%);
+}
+
 .contact-left-container p{
     line-height: 40px;
 }
 
-@media (min-width: 768px){
-    .nav-menu{
-    background-color: transparent;
+
+@media (min-width: 372px) {
+    .contact-left-container h2{
+        font-size: 18px;
     }
+    .contact-left-container p{
+        font-size: 17px;
+    }
+   
+}
+
+@media (min-width: 576px) {
+    .contact-left-container h2{
+        font-size: 20px;
+    }
+    .contact-left-container p{
+        font-size: 19px;
+    }
+   
+}
+
+@media (min-width: 768px){
+    .contact-left-container h2{
+        font-size: 24px;
+    }
+    .contact-left-container p{
+        font-size: 21px;
+    }
+   
+    .nav-menu{
+        background-color: transparent;
+        }
 }

@@ -68,7 +68,7 @@ const NavbarComponent = () => {
                 className="navlink"
                 onClick={() => handleClose()}
               >
-                Portfolio
+                Projects
               </Link>
             </Nav.Item>
             <Nav.Item>
