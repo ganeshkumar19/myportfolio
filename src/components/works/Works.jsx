@@ -1,30 +1,26 @@
 import React from 'react'
 import './Work.css'
 import { Col, Container, Row } from 'react-bootstrap';
-import WORK1 from '../../assets/work1.png'
-import WORK2 from '../../assets/work2.png'
-import WORK3 from '../../assets/work3.png'
-
+import NEWWORK1 from '../../assets/newwork1.png'
+import NEWWORK2 from '../../assets/newwork2.png'
 
 const Works = () => {
 
     const workdata = [
         {
           id: 1,
-          image: WORK1,
-          link: 'https://hiphoptamizha.com/'
+          image: NEWWORK1,
+          link: 'https://splashchemicals.in/',
+          title: 'Splash Chemicals',
+          description: 'Professional business website showcasing chemical products with responsive design and smooth animations.'
         },
         {
             id: 2,
-            image: WORK2,
-            link: 'https://splashchemicals.in/'
-
-        },
-        {
-            id: 3,
-            image: WORK3,
-            link: 'https://splashpyro.in/'
-        },
+            image: NEWWORK2,
+            link: 'https://dhya.co.in/',
+            title: 'Dhya AquaIntelli',
+            description: 'DhyaFarms is a comprehensive aquaculture management platform that I built to help fish farmers monitor and manage their farms more effectively.'
+        }
       ];
 
       const handleRedirect = (url) => {
@@ -42,9 +38,15 @@ const Works = () => {
     </Row>
     <Row className='my-3'>
     {workdata.map((work, index)=>(
-             <Col className='my-3' xs={12} sm={6} md={4} key={work.id} onClick={()=> handleRedirect(work.link)}>
+             <Col className='my-3' xs={12} sm={6} key={work.id} onClick={()=> handleRedirect(work.link)}>
                  <div className='work-image-container'>
                     <img src={work.image} className='work-image'/>
+                    <div className='work-overlay'>
+                        <div className='work-content'>
+                            <h4 className='work-title'>{work.title}</h4>
+                            <p className='work-description'>{work.description}</p>
+                        </div>
+                    </div>
                  </div>
              </Col>
             ))}
