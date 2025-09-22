@@ -12,7 +12,7 @@ const Works = () => {
           image: NEWWORK1,
           link: 'https://splashchemicals.in/',
           title: 'Splash Chemicals',
-          description: 'Professional business website showcasing chemical products with responsive design and smooth animations.'
+          description: 'Splash Chemicals is a professional chemical supplier/solutions company with a polished and clear web presence.'
         },
         {
             id: 2,
