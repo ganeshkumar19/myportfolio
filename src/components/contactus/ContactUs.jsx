@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { MdMailOutline, MdPhoneInTalk, MdOutlineLocationOn, MdWork, MdCode, MdSchool } from "react-icons/md";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import RESUME_PDF from '../../assets/resume.pdf'
 import './ContactUs.css'
 
 const ContactUs = () => {
@@ -18,7 +18,7 @@ const ContactUs = () => {
   // Function to handle resume download
   const handleResumeDownload = () => {
     const link = document.createElement('a')
-    link.href = '/resume.pdf' // Update with your actual resume path
+    link.href = RESUME_PDF
     link.download = 'Ganesh_Kumar_Resume.pdf'
     document.body.appendChild(link)
     link.click()
