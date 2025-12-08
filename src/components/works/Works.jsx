@@ -10,14 +10,14 @@ const Works = () => {
         {
           id: 1,
           image: NEWWORK1,
-          link: 'https://splashchemicals.in/',
+          link: 'https://github.com/ganeshkumar19/splashchemicals',
           title: 'Splash Chemicals',
           description: 'Splash Chemicals is a professional chemical supplier/solutions company with a polished and clear web presence.'
         },
         {
             id: 2,
             image: NEWWORK2,
-            link: 'https://dhya.co.in/',
+            link: 'https://github.com/ganeshkumar19/dhyafarms-frontend',
             title: 'Dhya AquaIntelli',
             description: 'DhyaFarms is a comprehensive aquaculture management platform that I built to help fish farmers monitor and manage their farms more effectively.'
         }
