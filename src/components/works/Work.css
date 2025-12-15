@@ -28,7 +28,8 @@
 .work-images-wrapper {
     position: relative;
     width: 100%;
-    height: 450px;
+    /* Let image/container control height so it doesn't get cropped */
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +41,8 @@
     position: relative;
     width: 100%;
     max-width: 550px;
-    height: 100%;
+    /* Responsive height; keep aspect by image itself */
+    height: auto;
     border-radius: 20px;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
@@ -71,8 +73,8 @@
 .work-image {
     position: relative;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 1;
     display: block;
@@ -204,13 +206,21 @@
     }
     
     .work-images-wrapper {
-        height: 350px;
+        /* Let the image define the height on small screens so it doesn't get cut */
+        height: auto;
         margin-bottom: 2rem;
         padding: 1rem;
     }
     
     .work-image-container {
         max-width: 100%;
+        height: auto;
+    }
+
+    .work-image {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
     }
     
     .work-content-col {
