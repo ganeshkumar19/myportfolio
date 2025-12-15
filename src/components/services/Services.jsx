@@ -69,11 +69,12 @@ const Services = () => {
       ];
       
   return (
-    <Container className='d-flex flex-column justify-content-center align-items-center' id='services'>
+    <Container className='d-flex flex-column justify-content-center align-items-center servicesContainer' id='services'>
         <Row>
             <Col xs={12}>
             <div className='services-title-container'>
               <h2>Services</h2>
+              <p className='services-subtitle mb-0'>What I can help you build and optimize</p>
             </div>
             </Col>
         </Row>
@@ -81,16 +82,18 @@ const Services = () => {
             {services.map((service, index)=>(
               <InView threshold={0.4} triggerOnce={true} key={service.id}>
               {({ ref, inView }) => (
-             <MotionCol className='my-3' xs={12} sm={6} md={4} key={service.id} ref={ref} 
+             <MotionCol className='my-3' xs={12} sm={6} md={6} lg={4} key={service.id} ref={ref} 
              variants={getVariant(index)}
              initial='hidden' 
              animate={inView ? 'visible' : 'hidden'} >
-                 <div className='service-card p-3'>
-                    <div className='service-info d-flex flex-column justify-content-center gap-2'>
+                 <div className='service-card p-4'>
+                    <div className='service-info d-flex flex-column justify-content-center gap-3'>
                         <div className='d-flex justify-content-between align-items-center'>
                             <h2>{`0${service.id}`}</h2>
-                            <div className='service-icon'>
+                            <div className='service-icon-wrapper'>
+                              <div className='service-icon'>
                                 {service.icon}
+                              </div>
                             </div>
                         </div>
                         <h3>{service.title}</h3>

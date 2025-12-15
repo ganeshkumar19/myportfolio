@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import { Col, Container, Row } from 'react-bootstrap'
-import PROFILE from '../../assets/profile.jpg'
+import PROFILE from '../../assets/person.png'
 import { motion } from "framer-motion";
 import { InView } from 'react-intersection-observer';
 
